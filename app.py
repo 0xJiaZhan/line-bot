@@ -42,9 +42,9 @@ def handle_message(event):
 
     if msg in ["hi", "HI", "Hi", "哈囉", "你好", "妳好"]:
         r = "你好阿~"
-    elif msg in ["吃飯了嗎", "吃飽了嗎", "吃午餐了嗎"]
+    elif msg in ["吃飯了嗎", "吃飽了嗎", "吃午餐了嗎"]:
         r = "我還沒吃飯"
-    elif msg in ["你是誰"]
+    elif msg in ["你是誰"]:
         r = "我是機器人"
 
     line_bot_api.reply_message(
